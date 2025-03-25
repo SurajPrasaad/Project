@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Creating Variable to store the textarea and the div element  
 const data = document.getElementById("data");
-const content = document.getElementById("content");
+const content = document.getElementById("content-right");
 
 //Creating Emoji Map Object to store emoji codes and their corresponding emoji characters
 const emojiMap = {
