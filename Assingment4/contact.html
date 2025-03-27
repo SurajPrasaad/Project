@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Digital Bookstore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #121212;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #fff;
+        }
+        .contact-info {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-info p {
+            font-size: 18px;
+            color: #bbb;
+            margin: 10px 0;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            display: inline-block;
+            font-size: 20px;
+            color: #1e90ff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #00bfff;
+        }
+        .contact-form {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-form input, 
+        .contact-form textarea {
+            caret-color: orangered;
+            width: 100%;
+            max-width: 500px; /* Fixed width inside container */
+            padding: 12px;
+            margin-top: 10px;
+            border: 1px solid #333;
+            background: #222;
+            color: #fff;
+            border-radius: 5px;
+            outline: none;
+            box-sizing: border-box; /* Fixes form going outside */
+        }
+        .contact-form button {
+            width: 100%;
+            max-width: 500px; /* Same as inputs */
+            padding: 12px;
+            margin-top: 10px;
+            background: #1e90ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #00bfff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        
+        <div class="contact-info">
+            <p>📧 Email: support@onlinedigitalbookstore.com</p>
+            <p tel="7862937812">📞 Phone: 7862937812</p>
+            <p>📍 Address: 123 Bookstore Lane, Digital City, Gujarat</p>
+        </div>
+
+        <div class="social-links">
+            <a href="#">📘 Facebook</a>
+            <a href="#">🐦 Twitter</a>
+            <a href="#">📸 Instagram</a>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
